@@ -1,0 +1,280 @@
+html,body {
+margin:0;
+padding:0;
+overflow-x:hidden;
+}
+body{
+
+
+
+
+background-image: linear-gradient(#3d97c1,#6788),url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+background-position: cover;
+
+
+
+
+}
+.container{
+
+
+
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-bottom: 20px;
+background-color: #fefefe;
+border-radius: 6px;
+width: 295px;
+position: sticky;
+left: 900px;
+
+
+
+
+
+
+
+
+}
+.formContainer{
+background-color: #eeeeee;
+padding-left: 30px;
+padding-right: 23px;
+padding-bottom: 10px;
+
+}
+
+form input{
+padding: 5px 7px;
+font-size:large;
+border-top:none;
+border-right: none;
+border-left:none;
+border-radius: 5px;
+
+}
+
+
+
+
+#pass-status,#pass-status1{
+margin-left:-25px;
+}
+
+input[type="file"]{
+display: none;
+}
+
+
+button{
+
+border-radius: 8px;
+padding: 8px 10px;
+border: none;
+background-color: #23beeb;
+font-size: medium;
+
+margin:auto;
+
+}
+button:hover{
+color: white;
+border:white 1px solid;
+transition: ease-in 0.1s;
+
+}
+div input:focus{
+
+outline:none;
+
+
+}
+
+.upload-btn{
+    background-color: #23beeb;
+   
+    height: fit-content;
+    border-radius: 8px;
+    padding: 8px 10px;
+    text-align: center;
+
+
+}
+.upload-btn:hover{
+color: white;
+border:white 1px solid;
+transition: ease-in 0.1s;
+}
+
+#blah {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px;
+border: white 2px solid;
+
+  object-fit: cover;
+  object-position: center right;
+}
+ul li{
+list-style-type: none;
+float:center;
+}
+
+.form-field{
+margin-right:30px ;
+}
+input:hover{
+
+border-bottom:white 2px solid;
+}
+
+h1{
+color:rgb(150, 135, 135);
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.container2{
+width:600px;
+position:absolute;
+bottom:250px;
+left: 150px;
+letter-spacing: 2px;
+
+
+
+font-family:Arial, Helvetica, sans-serif;
+color: #eff3f5;
+
+}
+.font{
+font-weight:500;
+}
+
+.sign{
+border-radius: 0px;
+background-color: #1cb6e0;
+font-size:larger;
+
+}
+.login{
+border-radius: 0px;
+background-color:#639be9;
+font-size: large;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+}
+ 
+
+nav a{
+text-decoration: none;
+}
+.register{
+font-size: x-large;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Pacifico', cursive;
+color: rgb(248, 237, 237);
+
+
+}
+.register:hover{
+color: rgb(56, 54, 54);
+}
+.navbar{
+display: flex;
+max-width: 25vh;
+
+flex:1;
+justify-content: space-evenly;
+}
+
+.navbar i:hover{
+margin-top:4px;
+
+transition: ease-in-out 0.1s;
+}
+
+@media only screen and (max-width: 480px) {
+
+.container2 h2{
+position :absolute;
+font-size: 20px;
+left: -100px;
+
+}
+.container2 p{
+font-size: 15px;
+
+max-width: 280px;
+position: absolute;
+left: -90px;
+font-size:small;
+
+}
+.sign,.login{
+position: relative;
+right: 50px;
+}
+.container{
+margin-left:60px;
+}
+
+}
+
+@media only screen and (max-width: 560px) {
+.container2 h2{
+
+position :relative;
+
+right: 50px;
+}
+
+.container2 p{
+position: relative;
+right: 60px;
+
+width: none;
+}
+.sign,.login{
+margin-right:90px;
+}
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .container2 p{
+width: 400px;
+letter-spacing: 0.1px;
+margin-left: 20px;
+padding:10px;
+margin: auto;
+
+
+}
+
+
+}
+@media only screen and (max-width: 1050px) {
+ .container{
+position:static;
+
+margin: auto;
+
+}
+.container2{
+position: static;
+margin: auto;
+
+}
+}
